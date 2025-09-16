@@ -78,15 +78,15 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  /* .flex-center {
+  .flex-center {
     @apply flex justify-center items-center;
-  } */
+  }
 
   .mask-clip-path {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-  /* .special-font b {
+  .special-font b {
     font-family: "Zentry";
     font-feature-settings: "ss01" on;
   }
@@ -95,6 +95,7 @@ body {
     @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
   }
 
+  /*
   .about-subtext {
     @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web text-lg md:max-w-[34rem];
   }
