@@ -18,8 +18,6 @@ const Hero = () => {
   const nextVideoRef = useRef(null);
 
   // const videoList = ["video_1111", "video_2222", "video_3333", "video_4444"];
-  console.log("current index ", currentIndex);
-  console.log("loaded videos", loadedVideos);
 
   const upcomingVideoIndex = (currentIndex % totalVideos) + 1;
   console.log("upcomingVideoIndex ", upcomingVideoIndex);
