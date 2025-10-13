@@ -52,7 +52,6 @@ const Navbar = () => {
       opacity: isNavVisible ? 1 : 0,
       duration: 0.2,
     });
-    console.log(isNavVisible);
   }, [isNavVisible]);
 
   return (
